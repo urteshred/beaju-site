@@ -113,9 +113,11 @@ left column crossfades to that step's image and the active step name turns red.
 - **Work URLs** — the ↗ buttons all point at `#`. Real live links pending.
 - **About portrait** — placeholder box in `AboutUs.jsx`.
 - **Process images** — 5 black placeholders (`media` in `data/content.js`).
-- **Testimonials** — quotes are marked placeholders with `name: 'Sample Name'`
-  and pravatar photos. **Replace with real attributed testimonials or remove
-  the section before launch.**
+- **Testimonials** — 100% invented: `name: 'Sample Name'`, anonymous companies
+  (`Client A/B/C`) and pravatar photos. Companies are deliberately anonymised so
+  this public repo never shows a fabricated quote attributed to a real client.
+  **Replace with real attributed testimonials, or delete the section, before
+  launch.**
 - **Logo** — Contact uses a text wordmark `Beaju®`; swap for a real SVG.
 - **OG image** — auto-generated placeholder; `index.html` OG tags point at
   `https://beaju.com/...` (update host on deploy).

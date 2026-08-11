@@ -87,12 +87,14 @@ export const skills = [
   { step: '05', media: BLACK },
 ]
 
-// PLACEHOLDER testimonials — names, titles, quotes and photos are invented.
-// Replace every field with a real, attributed testimonial before launch, or
-// remove the section. Quotes/roles are translated per locale; the name,
-// company and photo are not.
+// PLACEHOLDER testimonials — every field is invented: names, roles, quotes and
+// photos. Company names are deliberately anonymous ("Client A") so this repo
+// never publishes a fabricated quote attributed to a real client.
+// Replace all of it with real, attributed testimonials before launch, or delete
+// the section. Quotes/roles are translated per locale; name, company and photo
+// are not.
 export const testimonials = [
-  { id: 't1', name: 'Sample Name', company: 'Outr', photo: 'https://i.pravatar.cc/240?img=13' },
-  { id: 't2', name: 'Sample Name', company: 'Metrichain', photo: 'https://i.pravatar.cc/240?img=32' },
-  { id: 't3', name: 'Sample Name', company: 'Miisstudio', photo: 'https://i.pravatar.cc/240?img=45' },
+  { id: 't1', name: 'Sample Name', company: 'Client A', photo: 'https://i.pravatar.cc/240?img=13' },
+  { id: 't2', name: 'Sample Name', company: 'Client B', photo: 'https://i.pravatar.cc/240?img=32' },
+  { id: 't3', name: 'Sample Name', company: 'Client C', photo: 'https://i.pravatar.cc/240?img=45' },
 ]
