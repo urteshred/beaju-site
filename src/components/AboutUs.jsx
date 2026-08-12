@@ -110,6 +110,23 @@ export default function AboutUs() {
               <span className="l">{t.about.projects}</span>
             </div>
           </motion.div>
+
+          {/* leads to the full /about page (company info, clients, blog) */}
+          <motion.a
+            className="aboutus__more"
+            href="/about"
+            variants={reveal}
+            custom={3}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-15% 0px' }}
+            data-cursor={t.about.readMore}
+          >
+            {t.about.readMore}
+            <span className="aboutus__more-arrow" aria-hidden="true">
+              →
+            </span>
+          </motion.a>
         </div>
 
         <motion.div

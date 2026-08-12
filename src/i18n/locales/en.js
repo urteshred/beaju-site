@@ -79,6 +79,63 @@ export default {
     years: 'Years of Experience',
     projects: 'Projects Delivered',
     portrait: 'Portrait',
+    readMore: 'Read more about us',
+  },
+
+  aboutPage: {
+    back: 'Back to home',
+    backAbout: 'Back to about',
+    eyebrow: 'About Vanthore',
+    title: 'A studio that does one thing.',
+    lead: 'We design and hand-code premium websites for companies who understand that their site is the first thing a customer judges them on. No templates, no page builders, no second discipline splitting our attention.',
+    facts: [
+      ['Founded', '2022'],
+      ['Projects delivered', '40+'],
+      ['Based in', 'Vilnius, LT'],
+      ['Working', 'Remote, EU-wide'],
+    ],
+    whatTitle: 'What we do',
+    whatLead:
+      'One service, delivered end to end. We take a company from “our site undersells us” to a hand-built site that loads fast, moves smoothly and earns trust before a word of the pitch is read.',
+    services: [
+      [
+        'Marketing sites',
+        'The site most companies actually need: sharp positioning, clear structure, and proof placed where it changes a decision.',
+      ],
+      [
+        'Product sites & web apps',
+        'Dashboards, data-heavy interfaces and product front-ends that stay fast and legible under real load.',
+      ],
+      [
+        'E-commerce',
+        'Storefronts and multi-step checkout flows built to convert, on Shopify or a headless setup.',
+      ],
+      [
+        'Motion & interaction',
+        '60fps motion and micro-interactions that signal quality without getting in the way of reading or buying.',
+      ],
+    ],
+    beliefsTitle: 'How we think',
+    beliefs: [
+      'People decide whether they trust a company in seconds, mostly before reading anything.',
+      'Control over every layer is what a visitor actually feels. That is why we hand-code.',
+      'Speed is a design decision, not something you bolt on at the end.',
+      'Accessibility is a baseline, never a line item on a quote.',
+      'Fixed scope and fixed price, so improving the work costs you nothing extra.',
+      'You own everything at the end: the code, the hosting, every asset.',
+    ],
+    clientsTitle: 'Our clients',
+    clientsLead:
+      'A few of the companies we have built for. Every one was hand-coded from the ground up.',
+    blogTitle: 'Writing',
+    blogLead:
+      'Notes on craft, performance and how we work. No growth-hacking listicles.',
+    minRead: 'min read',
+    readPost: 'Read',
+    nextPost: 'Next',
+    notFound: 'Post not found',
+    notFoundBody: 'That article does not exist, or the link has changed.',
+    ctaTitle: 'Want to see what your site could be?',
   },
 
   process: {

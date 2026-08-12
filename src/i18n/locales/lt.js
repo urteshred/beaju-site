@@ -94,6 +94,7 @@ export default {
     years: 'Metai patirties',
     projects: 'Įgyvendinti projektai',
     portrait: 'Portretas',
+    readMore: 'Daugiau apie mus',
   },
 
   process: {

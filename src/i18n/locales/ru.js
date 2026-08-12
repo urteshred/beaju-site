@@ -93,6 +93,7 @@ export default {
     years: 'Года опыта',
     projects: 'Проектов сдано',
     portrait: 'Портрет',
+    readMore: 'Подробнее о нас',
   },
 
   process: {
