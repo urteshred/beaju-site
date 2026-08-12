@@ -85,6 +85,12 @@ export default {
         'Miisstudio, agencja artystyczna z Holandii, chciała, by mówiły same prace. Ręcznie zakodowaliśmy stronę klasy portfolio z płynnymi przejściami i przemyślaną typografią, która pozwala sztuce oddychać i wyglądać naprawdę galeryjnie.',
       scope: 'Kierunek artystyczny, portfolio, CMS',
     },
+    '06': {
+      category: 'Strona agencji',
+      description:
+        'Beaju to studio brandingu i wzrostu z Wilna, które pomaga markom konsumenckim i technologicznym stać się nie do przeoczenia. Ręcznie zakodowaliśmy stronę studia: sześć podstron z usługami, procesem, realizacjami i kontaktem, ułożonych tak, by potencjalny klient od razu trafił na to, czego szuka, i dotarł do formularza.',
+      scope: 'Strona studia, usługi, case studies',
+    },
   },
 
   about: {

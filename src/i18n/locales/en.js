@@ -71,6 +71,12 @@ export default {
         'Miisstudio, a Netherlands-based art agency, wanted the work to lead. We hand-coded a portfolio-grade site with smooth transitions and considered typography that lets the art breathe and feel genuinely gallery-quality.',
       scope: 'Art direction, portfolio site, CMS',
     },
+    '06': {
+      category: 'Agency Website',
+      description:
+        'Beaju is a brand and growth studio in Vilnius that helps consumer and tech brands become impossible to ignore. We hand-coded their studio site across six pages: services, process, work and contact, structured so a prospect can self-select and reach the enquiry form without wading through a pitch.',
+      scope: 'Studio site, services, case studies',
+    },
   },
 
   about: {

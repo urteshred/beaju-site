@@ -75,6 +75,22 @@ export const projects = [
       stack: ['React', 'Framer Motion', 'Sanity CMS'],
     },
   },
+  {
+    id: '06',
+    name: 'Beaju',
+    domain: 'beaju.com',
+    // the only live link so far — the rest are still placeholders
+    url: 'https://beaju.com/',
+    image: BLACK,
+    meta: {
+      // `pages` and `stack` verified from the live site (sitemap + headers);
+      // `weeks` is an estimate — correct it if it's wrong.
+      weeks: 7,
+      year: 2026,
+      pages: 6,
+      stack: ['React', 'Next.js', 'Vercel', 'GA4'],
+    },
+  },
 ]
 
 // UI/UX process steps — assets only; titles/bodies come from the active locale.

@@ -86,6 +86,12 @@ export default {
         'Miisstudio, Nyderlanduose įsikūrusi meno agentūra, norėjo, kad pirmiausia kalbėtų darbai. Ranka užkodavome portfolio lygio svetainę su sklandžiais perėjimais ir apgalvota tipografija, kuri leidžia menui kvėpuoti ir atrodyti tikrai galerijos vertai.',
       scope: 'Meninė kryptis, portfolio, turinio valdymas',
     },
+    '06': {
+      category: 'Agentūros svetainė',
+      description:
+        'Beaju – prekės ženklo ir augimo studija Vilniuje, padedanti vartotojų ir technologijų prekės ženklams tapti neignoruojamais. Ranka užkodavome jų studijos svetainę: šešis puslapius su paslaugomis, procesu, darbais ir kontaktais, sudėliotus taip, kad potencialus klientas iš karto rastų sau aktualią informaciją ir užklausos formą.',
+      scope: 'Studijos svetainė, paslaugos, atvejų analizės',
+    },
   },
 
   about: {
