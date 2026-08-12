@@ -5,15 +5,15 @@ export default {
   htmlLang: 'en',
 
   meta: {
-    title: 'BEAJU — Hand-Coded Premium Websites',
+    title: 'VANTHORE — Hand-Coded Premium Websites',
     description:
-      'Beaju designs and hand-codes premium websites that load fast, feel premium, and earn trust from the first second.',
+      'Vanthore designs and hand-codes premium websites that load fast, feel premium, and earn trust from the first second.',
   },
 
   nav: { works: 'Works', about: 'About', contact: 'Contact' },
 
   hero: {
-    eyebrow: 'We are Beaju and we design',
+    eyebrow: 'We are Vanthore and we design',
     lines: ['Websites', 'that earn', 'trust'],
     aria: 'Websites that earn trust',
   },
@@ -75,7 +75,7 @@ export default {
 
   about: {
     title: 'About Us',
-    lead: 'For three years, Beaju has designed and hand-coded premium websites that make companies look serious: intuitive, fast, and built with intent. We do one thing at the highest level, and nothing else. That focus is exactly why the work is better.',
+    lead: 'For three years, Vanthore has designed and hand-coded premium websites that make companies look serious: intuitive, fast, and built with intent. We do one thing at the highest level, and nothing else. That focus is exactly why the work is better.',
     years: 'Years of Experience',
     projects: 'Projects Delivered',
     portrait: 'Portrait',
@@ -152,7 +152,7 @@ export default {
     cta: 'Book a 20-minute call',
     ctaSubject: 'Booking a 20-minute call',
     instagram: 'Instagram',
-    rights: '© 2026 Beaju · All rights reserved',
+    rights: '© 2026 Vanthore · All rights reserved',
     tagline: 'Hand-coded, never templated.',
     privacy: 'Privacy',
     imprint: 'Imprint',
@@ -160,11 +160,11 @@ export default {
     close: 'Close',
     privacyBody: [
       'We only use the details you send us (your email and, if provided, your phone number) to reply to your enquiry. We do not sell your data and we don’t run third-party advertising trackers on this site.',
-      'To ask what we hold or request deletion, email hello@beaju.com.',
+      'To ask what we hold or request deletion, email hello@vanthore.com.',
     ],
     privacyNote:
       'Placeholder text — replace with your reviewed privacy policy before launch.',
-    imprintBody: 'Beaju — independent web studio.',
+    imprintBody: 'Vanthore — independent web studio.',
     imprintDetails: '[Registered company name, number & address]',
     imprintNote:
       'Placeholder — add your real business/registration details before launch.',

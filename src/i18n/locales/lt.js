@@ -14,15 +14,15 @@ export default {
   htmlLang: 'lt',
 
   meta: {
-    title: 'BEAJU — Ranka koduojamos premium svetainės',
+    title: 'VANTHORE — Ranka koduojamos premium svetainės',
     description:
-      'Beaju kuria ir ranka koduoja premium svetaines, kurios greitai kraunasi, atrodo brangiai ir pelno pasitikėjimą nuo pirmos sekundės.',
+      'Vanthore kuria ir ranka koduoja premium svetaines, kurios greitai kraunasi, atrodo brangiai ir pelno pasitikėjimą nuo pirmos sekundės.',
   },
 
   nav: { works: 'Darbai', about: 'Apie', contact: 'Kontaktai' },
 
   hero: {
-    eyebrow: 'Mes esame Beaju ir mes kuriame',
+    eyebrow: 'Mes esame Vanthore ir mes kuriame',
     lines: ['Svetaines', 'kurios pelno', 'pasitikėjimą'],
     aria: 'Svetaines, kurios pelno pasitikėjimą',
   },
@@ -90,7 +90,7 @@ export default {
 
   about: {
     title: 'Apie mus',
-    lead: 'Jau trejus metus Beaju kuria ir ranka koduoja premium svetaines, dėl kurių įmonės atrodo rimtai: intuityvias, greitas ir sukurtas su aiškiu tikslu. Darome vieną dalyką aukščiausiu lygiu ir nieko daugiau. Būtent dėl to darbas yra geresnis.',
+    lead: 'Jau trejus metus Vanthore kuria ir ranka koduoja premium svetaines, dėl kurių įmonės atrodo rimtai: intuityvias, greitas ir sukurtas su aiškiu tikslu. Darome vieną dalyką aukščiausiu lygiu ir nieko daugiau. Būtent dėl to darbas yra geresnis.',
     years: 'Metai patirties',
     projects: 'Įgyvendinti projektai',
     portrait: 'Portretas',
@@ -167,7 +167,7 @@ export default {
     cta: 'Rezervuoti 20 min. pokalbį',
     ctaSubject: '20 minučių pokalbio rezervacija',
     instagram: 'Instagram',
-    rights: '© 2026 Beaju · Visos teisės saugomos',
+    rights: '© 2026 Vanthore · Visos teisės saugomos',
     tagline: 'Koduojame ranka. Jokių šablonų.',
     privacy: 'Privatumas',
     imprint: 'Rekvizitai',
@@ -175,11 +175,11 @@ export default {
     close: 'Uždaryti',
     privacyBody: [
       'Jūsų atsiųstus duomenis (el. paštą ir, jei nurodėte, telefono numerį) naudojame tik tam, kad atsakytume į jūsų užklausą. Duomenų neparduodame ir šioje svetainėje nenaudojame trečiųjų šalių reklamos sekimo įrankių.',
-      'Norėdami sužinoti, kokius duomenis turime, arba paprašyti juos ištrinti, rašykite hello@beaju.com.',
+      'Norėdami sužinoti, kokius duomenis turime, arba paprašyti juos ištrinti, rašykite hello@vanthore.com.',
     ],
     privacyNote:
       'Laikinas tekstas — prieš paleidimą pakeiskite savo patvirtinta privatumo politika.',
-    imprintBody: 'Beaju — nepriklausoma interneto svetainių studija.',
+    imprintBody: 'Vanthore — nepriklausoma interneto svetainių studija.',
     imprintDetails: '[Registruotas įmonės pavadinimas, kodas ir adresas]',
     imprintNote:
       'Laikinas tekstas — prieš paleidimą įrašykite tikrus įmonės registracijos duomenis.',

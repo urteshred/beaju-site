@@ -13,15 +13,15 @@ export default {
   htmlLang: 'pl',
 
   meta: {
-    title: 'BEAJU — Premium strony pisane ręcznie',
+    title: 'VANTHORE — Premium strony pisane ręcznie',
     description:
-      'Beaju projektuje i ręcznie koduje premium strony, które ładują się błyskawicznie, wyglądają drogo i budują zaufanie od pierwszej sekundy.',
+      'Vanthore projektuje i ręcznie koduje premium strony, które ładują się błyskawicznie, wyglądają drogo i budują zaufanie od pierwszej sekundy.',
   },
 
   nav: { works: 'Realizacje', about: 'O nas', contact: 'Kontakt' },
 
   hero: {
-    eyebrow: 'Jesteśmy Beaju i projektujemy',
+    eyebrow: 'Jesteśmy Vanthore i projektujemy',
     lines: ['Strony', 'które budują', 'zaufanie'],
     aria: 'Strony, które budują zaufanie',
   },
@@ -89,7 +89,7 @@ export default {
 
   about: {
     title: 'O nas',
-    lead: 'Od trzech lat Beaju projektuje i ręcznie koduje premium strony, dzięki którym firmy wyglądają poważnie: intuicyjne, szybkie i tworzone z intencją. Robimy jedną rzecz na najwyższym poziomie i nic poza tym. Właśnie dlatego efekt jest lepszy.',
+    lead: 'Od trzech lat Vanthore projektuje i ręcznie koduje premium strony, dzięki którym firmy wyglądają poważnie: intuicyjne, szybkie i tworzone z intencją. Robimy jedną rzecz na najwyższym poziomie i nic poza tym. Właśnie dlatego efekt jest lepszy.',
     years: 'Lata doświadczenia',
     projects: 'Zrealizowanych projektów',
     portrait: 'Portret',
@@ -166,7 +166,7 @@ export default {
     cta: 'Umów 20-minutową rozmowę',
     ctaSubject: 'Rezerwacja 20-minutowej rozmowy',
     instagram: 'Instagram',
-    rights: '© 2026 Beaju · Wszelkie prawa zastrzeżone',
+    rights: '© 2026 Vanthore · Wszelkie prawa zastrzeżone',
     tagline: 'Kodowane ręcznie. Nigdy z szablonu.',
     privacy: 'Prywatność',
     imprint: 'Dane firmy',
@@ -174,11 +174,11 @@ export default {
     close: 'Zamknij',
     privacyBody: [
       'Dane, które nam wysyłasz (e-mail i, jeśli podasz, numer telefonu), wykorzystujemy wyłącznie do odpowiedzi na Twoje zapytanie. Nie sprzedajemy danych i nie używamy na tej stronie zewnętrznych trackerów reklamowych.',
-      'Aby dowiedzieć się, jakie dane przechowujemy, lub poprosić o ich usunięcie, napisz na hello@beaju.com.',
+      'Aby dowiedzieć się, jakie dane przechowujemy, lub poprosić o ich usunięcie, napisz na hello@vanthore.com.',
     ],
     privacyNote:
       'Tekst tymczasowy — przed startem zastąp go zatwierdzoną polityką prywatności.',
-    imprintBody: 'Beaju — niezależne studio webowe.',
+    imprintBody: 'Vanthore — niezależne studio webowe.',
     imprintDetails: '[Nazwa firmy, numer rejestrowy i adres]',
     imprintNote:
       'Tekst tymczasowy — przed startem dodaj prawdziwe dane rejestrowe firmy.',

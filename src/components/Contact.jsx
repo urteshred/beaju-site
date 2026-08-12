@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useI18n } from '../i18n/index.jsx'
 
-const EMAIL = 'hello@beaju.com'
+const EMAIL = 'hello@vanthore.com'
 const PHONE = '+370 647 99015'
 const PHONE_HREF = 'tel:+37064799015'
-const INSTAGRAM = 'https://www.instagram.com/beaju.studio/'
+const INSTAGRAM = 'https://www.instagram.com/vanthore.studio/'
 
 const reveal = {
   hidden: { opacity: 0, y: 40 },
@@ -95,9 +95,9 @@ export default function Contact() {
         whileInView="show"
         viewport={{ once: true }}
       >
-        {/* Beaju wordmark — swap for a real logo SVG when available */}
+        {/* Vanthore wordmark — swap for a real logo SVG when available */}
         <span className="contact__logo">
-          Beaju<sup>®</sup>
+          Vanthore<sup>®</sup>
         </span>
         <span className="contact__status">
           <span className="live" aria-hidden="true" />

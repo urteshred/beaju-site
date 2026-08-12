@@ -1,4 +1,4 @@
-// Content sourced from beaju-context.docx — Beaju: hand-coded premium websites.
+// Content sourced from the client brief — Vanthore: hand-coded premium websites.
 // Work screenshots are solid-black placeholders — swap `image` for real website
 // photos, and `url` for live links, later.
 

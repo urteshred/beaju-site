@@ -120,16 +120,16 @@ export default function SocialRail() {
         label={t.rail.email}
         labels={t.rail}
         icon={<MailIcon />}
-        value="hello@beaju.com"
+        value="hello@vanthore.com"
         open={open}
         setOpen={setOpen}
       />
       <a
         className="rail__btn"
-        href="https://www.instagram.com/beaju.studio/"
+        href="https://www.instagram.com/vanthore.studio/"
         target="_blank"
         rel="noreferrer"
-        aria-label={`Beaju — ${t.rail.instagram}`}
+        aria-label={`Vanthore — ${t.rail.instagram}`}
         data-cursor={t.rail.instagram}
       >
         <InstagramIcon />

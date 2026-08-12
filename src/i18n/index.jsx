@@ -10,7 +10,7 @@ export const localeList = [en, lt, ru, pl].map((l) => ({
   label: l.label,
 }))
 
-const STORAGE_KEY = 'beaju:lang'
+const STORAGE_KEY = 'vanthore:lang'
 
 // Geographic hint: the visitor's IANA timezone maps to a likely language.
 // This is privacy-preserving (no IP lookup, no third-party request).

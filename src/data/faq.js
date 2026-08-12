@@ -14,7 +14,7 @@ export const faqCategories = {
 export const faqData = {
   basics: [
     {
-      q: 'What exactly does Beaju do?',
+      q: 'What exactly does Vanthore do?',
       a: 'We design and hand-code premium websites: marketing sites, product sites, online stores and web apps. One discipline, done at the highest level, and nothing else. That focus is the reason the work is better.',
       tags: 'services what you do agency studio',
     },

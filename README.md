@@ -1,6 +1,6 @@
-# Beaju — portfolio landing page
+# Vanthore — portfolio landing page
 
-Single-page marketing site for **Beaju**, a studio that designs and hand-codes
+Single-page marketing site for **Vanthore**, a studio that designs and hand-codes
 premium websites. Editorial/illustrative tone, dark theme, heavy on
 scroll-driven motion.
 
@@ -118,9 +118,9 @@ left column crossfades to that step's image and the active step name turns red.
   this public repo never shows a fabricated quote attributed to a real client.
   **Replace with real attributed testimonials, or delete the section, before
   launch.**
-- **Logo** — Contact uses a text wordmark `Beaju®`; swap for a real SVG.
+- **Logo** — Contact uses a text wordmark `Vanthore®`; swap for a real SVG.
 - **OG image** — auto-generated placeholder; `index.html` OG tags point at
-  `https://beaju.com/...` (update host on deploy).
+  `https://vanthore.com/...` (update host on deploy).
 - **Legal** — Privacy + Imprint modal copy in `Contact.jsx` is placeholder.
   Needs real reviewed policy and company registration details.
 - **Availability line** — "Q3 2026" in `locales/*.js` (`contact.availability`)

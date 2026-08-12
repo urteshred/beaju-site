@@ -14,7 +14,7 @@ export const faqCategories = {
 export const faqData = {
   basics: [
     {
-      q: 'Ką tiksliai veikia Beaju?',
+      q: 'Ką tiksliai veikia Vanthore?',
       a: 'Kuriame ir ranka koduojame premium svetaines: rinkodaros puslapius, produktų svetaines, el. parduotuves ir web aplikacijas. Viena sritis, atliekama aukščiausiu lygiu, ir nieko daugiau. Būtent dėl šio susitelkimo darbas yra geresnis.',
       tags: 'paslaugos ką darote agentūra studija services',
     },
