@@ -132,6 +132,8 @@ export default {
       'Notes on craft, performance and how we work. No growth-hacking listicles.',
     minRead: 'min read',
     readPost: 'Read',
+    by: 'By',
+    published: 'Published',
     nextPost: 'Next',
     notFound: 'Post not found',
     notFoundBody: 'That article does not exist, or the link has changed.',

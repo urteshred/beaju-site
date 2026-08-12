@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
 import { projects } from '../data/content.js'
-import { posts, formatDate } from '../data/blog.js'
+import { posts } from '../data/blog.js'
+import ArticleCard from './ui/ArticleCard.jsx'
 import { useI18n } from '../i18n/index.jsx'
+
+const AUTHOR = 'Vanthore Studio'
 
 const ease = [0.16, 1, 0.3, 1]
 
@@ -111,28 +114,27 @@ export default function AboutPage() {
           <p className="page__body">{a.blogLead}</p>
           <div className="page__posts">
             {posts.map((post, i) => (
-              <motion.a
-                className="post-card"
-                href={`/blog/${post.slug}`}
+              <motion.div
                 key={post.slug}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-6% 0px' }}
                 transition={{ duration: 0.45, delay: Math.min(i * 0.05, 0.3), ease }}
               >
-                <div className="post-card__meta">
-                  <span className="post-card__cat">{post.category}</span>
-                  <span className="post-card__dot">·</span>
-                  <time dateTime={post.date}>{formatDate(post.date, code)}</time>
-                  <span className="post-card__dot">·</span>
-                  <span>
-                    {post.readingTime} {a.minRead}
-                  </span>
-                </div>
-                <h3 className="post-card__title">{post.title}</h3>
-                <p className="post-card__excerpt">{post.excerpt}</p>
-                <span className="post-card__more">{a.readPost} ↗</span>
-              </motion.a>
+                <ArticleCard
+                  href={`/blog/${post.slug}`}
+                  headline={post.title}
+                  excerpt={post.excerpt}
+                  tag={post.category}
+                  tone={(i % 4) + 1}
+                  readingTime={post.readingTime * 60}
+                  writer={AUTHOR}
+                  publishedAt={post.date}
+                  clampLines={3}
+                  locale={code}
+                  labels={{ by: a.by, published: a.published }}
+                />
+              </motion.div>
             ))}
           </div>
         </Section>
