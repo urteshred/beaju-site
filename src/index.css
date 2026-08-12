@@ -1996,8 +1996,24 @@ body.has-custom-cursor button {
 
 /* ---------- SUB-PAGES (about, blog post) ---------- */
 .page {
+  position: relative;
   padding-top: clamp(90px, 13vh, 150px);
   padding-bottom: clamp(70px, 10vw, 130px);
+}
+/* warm brand aura behind the header, like the hero */
+.page::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: min(760px, 80vh);
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+    58% 62% at 12% 0%,
+    rgba(240, 71, 42, 0.2),
+    rgba(240, 71, 42, 0.05) 45%,
+    transparent 72%
+  );
 }
 .page__back {
   display: inline-block;
@@ -2032,17 +2048,30 @@ body.has-custom-cursor button {
   color: var(--fg);
 }
 .page__section {
-  padding-block: clamp(36px, 5vw, 68px);
+  padding-block: clamp(48px, 7vw, 100px);
   border-top: 1px solid var(--line);
 }
 .page__h2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   font-family: var(--display);
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-size: clamp(1.5rem, 3vw, 2.4rem);
+  letter-spacing: 0.01em;
+  line-height: 0.95;
+  font-size: clamp(2rem, 4.4vw, 3.6rem);
   color: var(--fg);
-  margin-bottom: clamp(18px, 2.2vw, 28px);
+  margin-bottom: clamp(22px, 2.6vw, 34px);
+}
+/* red dot marker, matching the home page section labels */
+.page__h2::before {
+  content: '';
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--hero-red);
 }
 .page__body {
   max-width: 62ch;
@@ -2062,16 +2091,21 @@ body.has-custom-cursor button {
   flex-direction: column;
   gap: 8px;
 }
+.page__fact {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
 .page__fact-value {
   font-family: var(--display);
   font-weight: 900;
-  font-size: clamp(1.5rem, 2.6vw, 2.2rem);
-  line-height: 1;
-  color: var(--fg);
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  line-height: 0.92;
+  letter-spacing: -0.005em;
+  color: var(--hero-red);
 }
 .page__fact-label {
-  font-size: 0.7rem;
-  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -2105,12 +2139,13 @@ body.has-custom-cursor button {
 }
 .page__service-title {
   font-family: var(--display);
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+  letter-spacing: 0.015em;
+  line-height: 1;
+  font-size: clamp(1.5rem, 2.4vw, 2.1rem);
   color: var(--hero-red);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .page__service-body {
   color: var(--muted);
@@ -2166,7 +2201,8 @@ body.has-custom-cursor button {
   font-family: var(--display);
   font-weight: 900;
   text-transform: uppercase;
-  font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+  line-height: 1;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
   color: var(--hero-red);
 }
 .page__client-year {
@@ -2237,10 +2273,15 @@ body.has-custom-cursor button {
 .post-card__title {
   margin-top: 14px;
   font-family: var(--display);
-  font-weight: 800;
-  font-size: clamp(1.25rem, 1.9vw, 1.7rem);
-  line-height: 1.08;
+  font-weight: 900;
+  font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+  line-height: 1;
+  letter-spacing: 0.005em;
   color: var(--fg);
+  transition: color 0.25s ease;
+}
+.post-card:hover .post-card__title {
+  color: var(--hero-red);
 }
 .post-card__excerpt {
   margin-top: 12px;
